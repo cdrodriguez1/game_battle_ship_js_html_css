@@ -1,0 +1,65 @@
+.b-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 200px;
+    margin-top: -20px;
+    z-index: 1;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.b-grid img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.info {
+    color: lightgray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    width: 69%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -92px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: -90px;
+}
+
+.laterales {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 20px;
+    z-index: -1;
+    margin-top: -480px;
+}
+
+.buque {
+    display: flex;
+    margin-top: -235px;
+    justify-content: center;
+
+    .buque2 {
+        margin-left: -926px;
+    }
+}
